@@ -1,0 +1,10 @@
+name = "ESMLiteratureCompare"
+uuid = "b16dd23b-03f7-57ca-9501-4dfe68d8e6d4"
+authors = ["Uwe Hernandez Acosta <u.hernandez@hzdr.de>"]
+version = "0.1.0"
+
+[workspace]
+projects = ["test", "docs"]
+
+[compat]
+julia = "1.10"
