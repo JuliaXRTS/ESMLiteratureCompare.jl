@@ -1,0 +1,23 @@
+paper = "Mihaila2011"
+figure = "2"
+
+quantity = "real response function"
+normalization = "kF/pi^2"
+
+running_param = "q"
+running_param_unit = "dimless"
+fixed_param = "ombar"
+fixed_param_unit = "dimless"
+
+density = 2e23
+density_unit = "cm^(-3)"
+
+temperature = 0.0
+temperature_unit = "eV"
+
+curves = [
+    { file = "Re_q_dependency_ombar_0.5.csv", ombar = 0.5 },
+    { file = "Re_q_dependency_ombar_0.csv", ombar = 0.0 },
+    { file = "Re_q_dependency_ombar_1.csv", ombar = 1.0 },
+    { file = "Re_q_dependency_ombar_1.5.csv", ombar = 1.5 },
+]

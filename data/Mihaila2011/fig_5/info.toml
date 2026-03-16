@@ -1,0 +1,23 @@
+paper = "Mihaila2011"
+figure = "5"
+
+quantity = "imag response function"
+normalization = "kF/pi^2"
+
+running_param = "ombar"
+running_param_unit = "dimless"
+fixed_param = "q"
+fixed_param_unit = "dimless"
+
+density = 2e23
+density_unit = "cm^(-3)"
+
+temperature = 0.0
+temperature_unit = "eV"
+
+curves = [
+    { file = "Im_ombar_dependency_q_0.5.csv", q = 0.5 },
+    { file = "Im_ombar_dependency_q_1.csv", q = 1.0 },
+    { file = "Im_ombar_dependency_q_2.csv", q = 2.0 },
+    { file = "Im_ombar_dependency_q_3.csv", q = 3.0 },
+]
